@@ -1,15 +1,15 @@
 import React from "react";
 import { IoSearchOutline, IoCartOutline } from "react-icons/io5";
 import { SlMenu } from "react-icons/sl";
-import UK from "../../../public/assets/UnitedKingdom.svg";
+import UK from "../../assets/UnitedKingdom.svg";
 import { useState } from "react";
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <nav class="flex justify-between items-center px-24 w-screen bg-transparent sticky top-0">
+    <nav className="flex justify-between items-center px-24 w-screen bg-transparent sticky top-0">
       <img src=";;;" alt="under construction" />
-      <div class="m-6 p-1.5 bg-myYellow ">
+      <div className="m-6 p-1.5 bg-myYellow ">
         <div className=" w-[400px] h-[60px] border-[3px] border-myGreen flex items-center px-4 justify-between">
           <div className="relative inline-block text-left">
             <div>
@@ -59,7 +59,7 @@ export const Navbar = () => {
               </div>
             )}
           </div>
-          <span class="h-[36px] w-[2px] bg-myGreen"></span>
+          <span className="h-[36px] w-[2px] bg-myGreen"></span>
           <div className="flex items-center">
             <IoSearchOutline size={30} color="#3B8457" />
             <input
@@ -68,7 +68,7 @@ export const Navbar = () => {
               className="bg-transparent py-2 text-myGreen outline-none text-lg ml-2 font-satoshiMid placeholder:text-myGreen/60 "
             />
           </div>
-          <span class="h-[36px] w-[2px] bg-myGreen"></span>
+          <span className="h-[36px] w-[2px] bg-myGreen"></span>
           <IoCartOutline size={30} color="#3B8457" />
         </div>
       </div>

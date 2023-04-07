@@ -1,12 +1,12 @@
 import "./index.css";
 import { Navbar } from "./components/navbar/Navbar";
-import { Header } from "./components/header/Header";
+import { Home } from "./pages/home";
 
 function App() {
   return (
-    <div className="App bg-myGreen h-[3000px] w-screen">
+    <div className=" bg-myGreen h-[3000px] overflow-hidden">
       <Navbar />
-      <Header />
+      <Home />
     </div>
   );
 }

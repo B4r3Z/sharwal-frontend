@@ -1,0 +1,23 @@
+@supports (-webkit-text-stroke: 1px #b94429) {
+  .txtStroke {
+    color: transparent;
+    -webkit-text-stroke: 1px #b94429;
+  }
+  .txtStroke2 {
+    color: transparent;
+    -webkit-text-stroke: 1px #3b8457;
+  }
+}
+
+@supports not (-webkit-text-stroke: 1px #b94429) {
+  .txtStroke {
+    color: #f3b73e;
+    text-shadow: -1px 1px 0 #b94429, 1px 1px 0 #b94429, 1px -1px 0 #b94429,
+      -1px -1px 0 #b94429;
+  }
+  .txtStroke2 {
+    color: #f3b73e;
+    text-shadow: -1px 1px 0 #3b8457, 1px 1px 0 #3b8457, 1px -1px 0 #3b8457,
+      -1px -1px 0 #3b8457;
+  }
+}

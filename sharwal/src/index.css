@@ -4,15 +4,19 @@
 
 @font-face {
   font-family: "SatoshiReg";
-  src: url("../public/fonts/Satoshi/Satoshi-Regular.woff2") format("woff2");
+  src: url("../fonts/Satoshi/Satoshi-Regular.woff2") format("woff2");
 }
 @font-face {
   font-family: "SatoshiMid";
-  src: url("../public/fonts/Satoshi/Satoshi-Medium.woff2") format("woff2");
+  src: url("../fonts/Satoshi/Satoshi-Medium.woff2") format("woff2");
 }
 @font-face {
   font-family: "SatoshiBlk";
-  src: url("../public/fonts/Satoshi/Satoshi-Black.woff2") format("woff2");
+  src: url("../fonts/Satoshi/Satoshi-Black.woff2") format("woff2");
+}
+@font-face {
+  font-family: "SatoshiBold";
+  src: url("../fonts/Satoshi/Satoshi-Bold.woff2") format("woff2");
 }
 
 * {
