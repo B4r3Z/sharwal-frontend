@@ -3,7 +3,7 @@ import heroImg from "../../../assets/ColorRecord.png";
 import "./HeroStyle.css";
 import male from "../../../assets/male.svg";
 import female from "../../../assets/female.svg";
-import { PageHeader } from "./pageheader/PageHeader";
+import { PageHeader } from "./pageheader/PageHeader.jsx";
 
 export const Hero = () => {
   return (

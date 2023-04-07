@@ -1,10 +1,10 @@
 import "./index.css";
 import { Navbar } from "./components/navbar/Navbar";
-import { Home } from "./pages/home";
+import { Home } from "./pages/Home";
 
 function App() {
   return (
-    <div className=" bg-myGreen h-[3000px]">
+    <div className=" bg-myGreen">
       <Navbar />
       <Home />
     </div>

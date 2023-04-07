@@ -1,6 +1,6 @@
 import React from "react";
-import { OneFabricCard } from "./oneFabricCard/OneFabricCard";
 import { FabricCardData } from "./FabricCardData";
+import { OneFabricCard } from "./oneFabricCard/OneFabricCard";
 
 export const AllFabricCards = () => {
   return (

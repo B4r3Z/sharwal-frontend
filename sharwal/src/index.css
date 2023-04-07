@@ -19,6 +19,22 @@
   src: url("../fonts/Satoshi/Satoshi-Bold.woff2") format("woff2");
 }
 
+@font-face {
+  font-family: "DentonReg";
+  src: url("../fonts/Denton/DENTONCONDENSEDTEST-REGULAR.OTF") format("otf");
+}
+
+@font-face {
+  font-family: "DentonRegItalic";
+  src: url("../fonts/Denton/DENTONCONDENSEDTEST-REGULARITALIC.OTF")
+    format("otf");
+}
+
+@font-face {
+  font-family: "DentonBold";
+  src: url("../fonts/Denton/DENTONCONDENSEDTEST-BOLD.OTF") format("otf");
+}
+
 * {
   font-family: "Satoshi";
 }
