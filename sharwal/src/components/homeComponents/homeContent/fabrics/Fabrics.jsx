@@ -1,5 +1,5 @@
 import React from "react";
-import { AllFabricCards } from "./AllFabricCards/AllFabricCards";
+import { AllFabricCards } from "./allFabricCards/AllFabricCards";
 
 export const Fabrics = () => {
   return (
