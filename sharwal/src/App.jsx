@@ -1,12 +1,17 @@
 import "./index.css";
 import { Navbar } from "./components/navbar/Navbar";
-import { Home } from "./pages/Home";
+import { Home } from "./routes/Home";
+import { Route, Routes } from "react-router-dom";
+import { Categories } from "./routes/categories";
 
 function App() {
   return (
-    <div className=" bg-myGreen">
+    <div className=" bg-myGreen h-[1200px]">
       <Navbar />
-      <Home />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/categories" element={<Categories />} />
+      </Routes>
     </div>
   );
 }

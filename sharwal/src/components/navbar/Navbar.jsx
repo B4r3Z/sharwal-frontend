@@ -3,6 +3,7 @@ import { IoSearchOutline, IoCartOutline } from "react-icons/io5";
 import { SlMenu } from "react-icons/sl";
 import UK from "../../assets/UnitedKingdom.svg";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,34 +29,37 @@ export const Navbar = () => {
             </div>
             {isOpen && (
               <div className="origin-top-left absolute left-0 mt-2 w-56 bg-white ring-1 ring-black ring-opacity-5">
-                <div
+                <ul
                   className="py-1"
                   role="menu"
                   aria-orientation="vertical"
                   aria-labelledby="options-menu"
                 >
-                  <a
-                    href="#"
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
-                    role="menuitem"
-                  >
-                    Option 1
-                  </a>
-                  <a
-                    href="#"
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
-                    role="menuitem"
-                  >
-                    Option 2
-                  </a>
-                  <a
-                    href="#"
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
-                    role="menuitem"
-                  >
-                    Option 3
-                  </a>
-                </div>
+                  <Link to="/categories">
+                    <li
+                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                      role="menuitem"
+                    >
+                      Categories
+                    </li>
+                  </Link>
+                  <Link to="/products">
+                    <li
+                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                      role="menuitem"
+                    >
+                      Products
+                    </li>
+                  </Link>
+                  <Link to="/contact">
+                    <li
+                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                      role="menuitem"
+                    >
+                      Contact US
+                    </li>
+                  </Link>
+                </ul>
               </div>
             )}
           </div>
