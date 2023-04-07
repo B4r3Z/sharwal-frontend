@@ -4,7 +4,7 @@ import { Home } from "./pages/home";
 
 function App() {
   return (
-    <div className=" bg-myGreen h-[3000px] overflow-hidden">
+    <div className=" bg-myGreen h-[3000px]">
       <Navbar />
       <Home />
     </div>

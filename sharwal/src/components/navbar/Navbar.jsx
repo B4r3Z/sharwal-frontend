@@ -7,7 +7,7 @@ import { useState } from "react";
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <nav className="flex justify-between items-center px-24 w-screen bg-transparent sticky top-0">
+    <nav className="flex justify-between items-center px-6 bg-transparent sticky top-0 border-box ">
       <img src=";;;" alt="under construction" />
       <div className="m-6 p-1.5 bg-myYellow ">
         <div className=" w-[400px] h-[60px] border-[3px] border-myGreen flex items-center px-4 justify-between">
@@ -72,7 +72,11 @@ export const Navbar = () => {
           <IoCartOutline size={30} color="#3B8457" />
         </div>
       </div>
-      <img src={UK} alt="under construction" />
+      <img
+        src={UK}
+        alt="under construction"
+        className="border-[3px] border-myYellow "
+      />
     </nav>
   );
 };

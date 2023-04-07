@@ -1,0 +1,10 @@
+MAKE NAVBAR STICKY FFS
+
+hero secion absolute why?
+also top and bottom padding
+
+check fabricCardData
+
+add span between cards good?
+
+fabric cards no overflow
