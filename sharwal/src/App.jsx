@@ -6,7 +6,7 @@ import { Categories } from "./routes/categories";
 
 function App() {
   return (
-    <div className=" bg-myGreen h-[1200px]">
+    <div className=" bg-myGreen h-full">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

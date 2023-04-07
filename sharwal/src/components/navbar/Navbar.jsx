@@ -4,12 +4,16 @@ import { SlMenu } from "react-icons/sl";
 import UK from "../../assets/UnitedKingdom.svg";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import react from "../../assets/react.svg";
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <nav className="flex justify-between items-center px-6 bg-transparent sticky top-0 border-box ">
-      <img src=";;;" alt="under construction" />
+      <Link to="/">
+        <img src={react} alt="under construction" />
+      </Link>
+
       <div className="m-6 p-1.5 bg-myYellow ">
         <div className=" w-[400px] h-[60px] border-[3px] border-myGreen flex items-center px-4 justify-between">
           <div className="relative inline-block text-left">
