@@ -8,3 +8,5 @@ check fabricCardData
 add span between cards good?
 
 fabric cards no overflow
+
+footer terms *line*?? privacy
