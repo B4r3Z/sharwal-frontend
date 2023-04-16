@@ -7,7 +7,7 @@ import { Footer } from "./components/footer/Footer";
 
 function App() {
   return (
-    <div className=" bg-myGreen h-full gap-y-16 flex flex-col">
+    <div className=" bg-myGreen h-full gap-y-16 flex flex-col overflow-hidden">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

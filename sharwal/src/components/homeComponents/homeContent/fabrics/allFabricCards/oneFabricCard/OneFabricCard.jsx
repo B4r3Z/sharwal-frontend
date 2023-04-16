@@ -10,7 +10,12 @@ export const OneFabricCard = ({
   return (
     <div className="bg-myRed">
       <div className=" p-8 text-myYellow flex-col space-y-3">
-        <img src={imgsrc} alt={fabricName} className="self-center" />
+        <img
+          src={imgsrc}
+          width="512px"
+          alt={fabricName}
+          className="self-center"
+        />
         <h3 className="text-lg">{noOfColors} Colors</h3>
         <h2 className="font-satoshiBold text-4xl">{fabricName}</h2>
         <h3 className="text-lg font-satoshiBold">{fabricType}</h3>

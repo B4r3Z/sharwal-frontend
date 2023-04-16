@@ -13,14 +13,14 @@ export const MadeInKurdistan = () => {
         <div className=" flex flex-col gap-y-32">
           <div className="flex flex-col items-start">
             <div className="flex flex-col -space-y-12 items-start ">
-              <h1 className="text-myYellow font-satoshiBold text-[8.125rem] leading-[11rem]">
+              <h1 className="text-myYellow font-satoshiBold text-[8.125rem] leading-[10rem]">
                 MADE IN
               </h1>
-              <h2 className="text-myYellow font-satoshiBold text-[4.75rem] leading-[6.5rem]">
+              <h2 className="text-myYellow font-satoshiBold text-[8.125rem] leading-[10rem]">
                 KURDISTAN
               </h2>
             </div>
-            <p className="font-dentonReg text-myYellow text-[2.625rem]">
+            <p className="font-dentonReg text-myYellow text-[2.625rem] leading-10 tracking-[-0.02em]">
               Experience the artistry and craftsmanship of Kurdistan through our
               collection of unique, handmade products that showcase the region's
               rich cultural heritage.

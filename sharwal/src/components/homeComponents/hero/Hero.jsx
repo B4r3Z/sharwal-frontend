@@ -11,15 +11,15 @@ export const Hero = () => {
       <PageHeader />
       <div className="w-[97.5%] mx-auto bg-myYellow self-center">
         <div className="grid grid-cols-3 gap-4 justify-between text-[4rem] items-center">
-          <div className=" pl-16 pt-40 pb-96 flex flex-col justify-end items-center text-left">
-            {/* <h1 className=" bottom-[12.25rem] txtStroke font-satoshiBold">
-            WHAT ARE YOU LOOKING FOR?
-          </h1> */}
+          <div className=" pl-16 pt-40 pb-96 flex flex-col justify-center items-center text-left relative">
             <h1 className=" text-myRed font-satoshiBold">
               WHAT ARE YOU LOOKING FOR?
             </h1>
+            <h1 className=" bottom-[12.25rem] txtStroke font-satoshiBold absolute top-1/4 opacity-50">
+              WHAT ARE YOU LOOKING FOR?
+            </h1>
           </div>
-          <div className="col-span-1">
+          <div className="">
             <img src={heroImg} alt="ididid" width={400} className="mx-auto" />
           </div>
           <div className="pr-16 flex flex-col">
@@ -27,10 +27,10 @@ export const Hero = () => {
               <img src={male} alt="" />
               <img src={female} alt="" />
             </div>
-            <div className=" pb-40 pt-96 flex flex-col justify-end items-center text-right">
-              {/* <h1 className=" txtStroke2 font-satoshiBold text-myGreen">
-            JUST CLICK AND WE'LL DO THE REST.
-          </h1> */}
+            <div className=" pb-40 pt-96 flex flex-col justify-end items-center text-right relative">
+              <h1 className=" txtStroke2 font-satoshiBold text-myGreen absolute bottom-[22.5%] opacity-50">
+                JUST CLICK AND WE'LL DO THE REST.
+              </h1>
               <h1 className="text-myGreen font-satoshiBold">
                 JUST CLICK AND WE'LL DO THE REST.
               </h1>

@@ -4,20 +4,17 @@ import { OneFabricCard } from "./oneFabricCard/OneFabricCard";
 
 export const AllFabricCards = () => {
   return (
-    <div className="flex flex-row px-6 items-center space-x-4">
+    <div className="grid grid-cols-4 px-6 gap-10 items-center justify-between">
       {FabricCardData.map((val, index) => {
         return (
-          <div className="flex items-center space-x-4">
-            <OneFabricCard
-              key={index}
-              imgsrc={val.imgsrc}
-              noOfColors={val.noOfColors}
-              fabricName={val.fabricName}
-              fabricType={val.fabricType}
-              fabricPerk={val.fabricPerk}
-            />
-            <span className="h-16 w-1 bg-myYellow"></span>
-          </div>
+          <OneFabricCard
+            key={index}
+            imgsrc={val.imgsrc}
+            noOfColors={val.noOfColors}
+            fabricName={val.fabricName}
+            fabricType={val.fabricType}
+            fabricPerk={val.fabricPerk}
+          />
         );
       })}
     </div>

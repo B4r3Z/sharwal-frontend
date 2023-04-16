@@ -8,7 +8,7 @@ export const Footer = () => {
       </h1>
       <div className="flex items-center justify-between gap-2  text-myYellow ">
         <h1 className="font-satoshiBold text-sm">Terms and Conditions</h1>
-        <span className="w-2 h-[97.5%] bg-myYellow mx-auto"></span>
+        <span className=" w-[2px] h-3 bg-myYellow mx-auto"></span>
         <h1 className="font-satoshiBold text-sm">Privacy Policy</h1>
       </div>
     </div>

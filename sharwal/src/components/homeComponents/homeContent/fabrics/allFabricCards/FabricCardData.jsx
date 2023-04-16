@@ -22,6 +22,7 @@ export const FabricCardData = [
     fabricType: "Woolen",
     fabricPerk: "Warm, Soft, Comfortable",
   },
+
   {
     imgsrc: kashmiri,
     noOfColors: 3,
