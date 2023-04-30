@@ -1,5 +1,5 @@
 import React from "react";
-import { AllCategoryCards } from "../components/categoriesComponents/allCategoryCards/AllCategoryCards";
+import { AllCategoryCards } from "../components/categoriesComponents/AllCategoryCards";
 
 export const Categories = () => {
   return (

@@ -4,6 +4,7 @@ import { Home } from "./routes/Home";
 import { Route, Routes } from "react-router-dom";
 import { Categories } from "./routes/categories";
 import { Footer } from "./components/footer/Footer";
+import { AllFabrics } from "./routes/AllFabrics";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/categories" element={<Categories />} />
+        <Route path="/allfabrics" element={<AllFabrics />} />
       </Routes>
       <Footer />
     </div>

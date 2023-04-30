@@ -1,11 +1,11 @@
 import React from "react";
 
-export const OneFabricCard = ({
+export const OneShowcaseCard = ({
   imgsrc,
   noOfColors,
-  fabricName,
-  fabricType,
-  fabricPerk,
+  itemName,
+  itemType,
+  itemPerk,
 }) => {
   return (
     <div className="bg-myRed">
@@ -13,13 +13,13 @@ export const OneFabricCard = ({
         <img
           src={imgsrc}
           width="512px"
-          alt={fabricName}
+          alt={itemName}
           className="self-center"
         />
         <h3 className="text-lg">{noOfColors} Colors</h3>
-        <h2 className="font-satoshiBold text-4xl">{fabricName}</h2>
-        <h3 className="text-lg font-satoshiBold">{fabricType}</h3>
-        <h3 className="text-lg">{fabricPerk}</h3>
+        <h2 className="font-satoshiBold text-4xl">{itemName}</h2>
+        <h3 className="text-lg font-satoshiBold">{itemType}</h3>
+        <h3 className="text-lg">{itemPerk}</h3>
       </div>
     </div>
   );

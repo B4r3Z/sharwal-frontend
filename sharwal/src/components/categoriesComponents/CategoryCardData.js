@@ -1,10 +1,10 @@
-import Spring from "../../../assets/SharwalCategories/Spring.svg";
-import Cotton from "../../../assets/SharwalCategories/Cotton.svg";
-import Linen from "../../../assets/SharwalCategories/Linen.svg";
-import Winter from "../../../assets/SharwalCategories/Winter.svg";
-import Autumn from "../../../assets/SharwalCategories/Autumn.svg";
-import Woven from "../../../assets/SharwalCategories/Woven.svg";
-import Summer from "../../../assets/SharwalCategories/Summer.svg";
+import Spring from "../../assets/SharwalCategories/Spring.svg";
+import Cotton from "../../assets/SharwalCategories/Cotton.svg";
+import Linen from "../../assets/SharwalCategories/Linen.svg";
+import Winter from "../../assets/SharwalCategories/Winter.svg";
+import Autumn from "../../assets/SharwalCategories/Autumn.svg";
+import Woven from "../../assets/SharwalCategories/Woven.svg";
+import Summer from "../../assets/SharwalCategories/Summer.svg";
 
 export const CategoryCardData = [
   {

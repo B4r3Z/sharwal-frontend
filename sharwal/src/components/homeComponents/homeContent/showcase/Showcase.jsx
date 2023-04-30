@@ -1,7 +1,7 @@
 import React from "react";
-import { AllFabricCards } from "./allFabricCards/AllFabricCards";
+import { AllShowcaseCards } from "./allShowcaseCards/AllShowcaseCards";
 
-export const Fabrics = () => {
+export const Showcase = () => {
   return (
     <div className="flex items-center flex-col justify-center gap-10">
       <div className="flex items-center justify-center flex-col text-myYellow gap-2">
@@ -9,7 +9,7 @@ export const Fabrics = () => {
         <h2 className="font-satoshiBold text-lg">SEE COLLECTIONS</h2>
       </div>
       <div>
-        <AllFabricCards />
+        <AllShowcaseCards />
       </div>
     </div>
   );
