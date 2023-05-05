@@ -9,7 +9,7 @@ export const Hero = () => {
   return (
     <div className="flex flex-col justify-center items-center">
       <PageHeader />
-      <div className="w-[97.5%] mx-auto bg-myYellow self-center">
+      <div className="w-[97.5%] mx-auto bg-mySecondary self-center">
         <div className="grid grid-cols-3 gap-4 justify-between text-[4rem] items-center">
           <div className=" pl-16 pt-40 pb-96 flex flex-col justify-center items-center text-left relative">
             <h1 className=" text-myRed font-satoshiBold">
@@ -28,10 +28,10 @@ export const Hero = () => {
               <img src={female} alt="" />
             </div>
             <div className=" pb-40 pt-96 flex flex-col justify-end items-center text-right relative">
-              <h1 className=" txtStroke2 font-satoshiBold text-myGreen absolute bottom-[22.5%] opacity-50">
+              <h1 className=" txtStroke2 font-satoshiBold text-myPrimary absolute bottom-[22.5%] opacity-50">
                 JUST CLICK AND WE'LL DO THE REST.
               </h1>
-              <h1 className="text-myGreen font-satoshiBold">
+              <h1 className="text-myPrimary font-satoshiBold">
                 JUST CLICK AND WE'LL DO THE REST.
               </h1>
             </div>

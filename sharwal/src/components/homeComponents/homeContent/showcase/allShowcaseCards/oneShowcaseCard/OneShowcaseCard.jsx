@@ -9,7 +9,7 @@ export const OneShowcaseCard = ({
 }) => {
   return (
     <div className="bg-myRed">
-      <div className=" p-8 text-myYellow flex-col space-y-3">
+      <div className=" p-8 text-mySecondary flex-col space-y-3">
         <img
           src={imgsrc}
           width="512px"

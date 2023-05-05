@@ -6,11 +6,11 @@ export const OneCarousel = () => {
     <div className="grid grid-cols-3">
       <div className="flex gap-4 ">
         <img src={Cotton} alt="" />
-        <div className="flex flex-col items-left justify-between bg-blue-100 ">
-          <h1 className="font-satoshiBold text-3xl text-myYellow">
+        <div className="flex flex-col items-left justify-between ">
+          <h1 className="font-satoshiBold text-3xl text-mySecondary">
             THE COTTON COLLECTION
           </h1>
-          <p className="font-dentonReg text-lg text-myYellow">
+          <p className="font-dentonReg text-lg text-mySecondary">
             Discover our versatile and durable cotton fabric collection - soft,
             breathable, and perfect for any occasion.
           </p>
@@ -18,11 +18,11 @@ export const OneCarousel = () => {
       </div>
       <div className="flex gap-4 ">
         <img src={Cotton} alt="" />
-        <div className="flex flex-col items-left justify-between bg-blue-100 ">
-          <h1 className="font-satoshiBold text-3xl text-myYellow">
+        <div className="flex flex-col items-left justify-between ">
+          <h1 className="font-satoshiBold text-3xl text-mySecondary">
             THE COTTON COLLECTION
           </h1>
-          <p className="font-dentonReg text-lg text-myYellow">
+          <p className="font-dentonReg text-lg text-mySecondary">
             Discover our versatile and durable cotton fabric collection - soft,
             breathable, and perfect for any occasion.
           </p>
@@ -30,11 +30,11 @@ export const OneCarousel = () => {
       </div>
       <div className="flex gap-4 ">
         <img src={Cotton} alt="" />
-        <div className="flex flex-col items-left justify-between bg-blue-100 ">
-          <h1 className="font-satoshiBold text-3xl text-myYellow">
+        <div className="flex flex-col items-left justify-between ">
+          <h1 className="font-satoshiBold text-3xl text-mySecondary">
             THE COTTON COLLECTION
           </h1>
-          <p className="font-dentonReg text-lg text-myYellow">
+          <p className="font-dentonReg text-lg text-mySecondary">
             Discover our versatile and durable cotton fabric collection - soft,
             breathable, and perfect for any occasion.
           </p>

@@ -30,8 +30,8 @@ export const Navbar = () => {
         <img src={react} alt="under construction" />
       </Link>
 
-      <div className="m-6 p-1.5 bg-myYellow ">
-        <div className=" w-[400px] h-[60px] border-[3px] border-myGreen flex items-center px-4 justify-between">
+      <div className="m-6 p-1.5 bg-mySecondary ">
+        <div className=" w-[400px] h-[60px] border-[3px] border-myPrimary flex items-center px-4 justify-between">
           <div className="relative inline-block text-left" ref={menuRef}>
             <div>
               <button
@@ -83,23 +83,23 @@ export const Navbar = () => {
               </div>
             )}
           </div>
-          <span className="h-[36px] w-[2px] bg-myGreen"></span>
+          <span className="h-[36px] w-[2px] bg-myPrimary"></span>
           <div className="flex items-center">
             <IoSearchOutline size={30} color="#3B8457" />
             <input
               type="text"
               placeholder="Search..."
-              className="bg-transparent py-2 text-myGreen outline-none text-lg ml-2 font-satoshiMid placeholder:text-myGreen/60 "
+              className="bg-transparent py-2 text-myPrimary outline-none text-lg ml-2 font-satoshiMid placeholder:text-myPrimary/60 "
             />
           </div>
-          <span className="h-[36px] w-[2px] bg-myGreen"></span>
+          <span className="h-[36px] w-[2px] bg-myPrimary"></span>
           <IoCartOutline size={30} color="#3B8457" />
         </div>
       </div>
       <img
         src={UK}
         alt="under construction"
-        className="border-[3px] border-myYellow "
+        className="border-[3px] border-mySecondary "
       />
     </nav>
   );

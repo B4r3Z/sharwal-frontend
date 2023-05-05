@@ -9,14 +9,14 @@ export const Featured = () => {
         <div className=" flex flex-col gap-y-32">
           <div className="flex flex-col items-start">
             <div className="flex flex-col -space-y-12 items-center">
-              <h1 className="text-myYellow font-satoshiBold text-[8.125rem] leading-[11rem]">
+              <h1 className="text-mySecondary font-satoshiBold text-[8.125rem] leading-[11rem]">
                 SPRING
               </h1>
-              <h2 className="text-myYellow font-satoshiBold text-[4.75rem] leading-[6.5rem]">
+              <h2 className="text-mySecondary font-satoshiBold text-[4.75rem] leading-[6.5rem]">
                 COLLECTION
               </h2>
             </div>
-            <p className="font-dentonReg text-myYellow text-[2.625rem]">
+            <p className="font-dentonReg text-mySecondary text-[2.625rem]">
               Soft. Vibrant. <i className="font-dentonRegItalic">Newroz</i>
               -Worthy.
             </p>

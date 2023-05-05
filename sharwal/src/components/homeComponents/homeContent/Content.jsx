@@ -10,7 +10,7 @@ export const Content = () => {
     <div className="flex flex-col gap-y-32">
       <Showcase />
       <Featured />
-      <span className="w-[97.5%] bg-myYellow h-1 mx-auto"></span>
+      <span className="w-[97.5%] bg-mySecondary h-1 mx-auto"></span>
       <OneCarousel />
       <MadeInKurdistan />
     </div>
