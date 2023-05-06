@@ -3,7 +3,7 @@ import { VscEye, VscEyeClosed } from "react-icons/vsc";
 import { customStyles } from "../../customStyles/customStyles";
 import { Link } from "react-router-dom";
 
-export const Login = () => {
+export const LoginComponent = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [visible, setVisible] = useState("");

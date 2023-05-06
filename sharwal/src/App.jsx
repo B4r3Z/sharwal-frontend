@@ -6,12 +6,14 @@ import { Categories } from "./routes/categories";
 import { Footer } from "./components/footer/Footer";
 import { AllFabrics } from "./routes/AllFabrics";
 import { LoginPage } from "./routes/Login";
+import { SignupPage } from "./routes/Signup";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/login" element={<LoginPage />} />
+        <Route path="/sign-up" element={<SignupPage />} />
       </Routes>
     </BrowserRouter>
 
