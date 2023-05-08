@@ -3,6 +3,8 @@ import { VscEye, VscEyeClosed } from "react-icons/vsc";
 import { RiFileUserLine } from "react-icons/ri";
 import { customStyles } from "../../customStyles/customStyles";
 import { Link } from "react-router-dom";
+import axios from "axios";
+import { server } from "../../server";
 
 export const SignupComponent = () => {
   const [name, setName] = useState("");
@@ -11,13 +13,30 @@ export const SignupComponent = () => {
   const [visible, setVisible] = useState(false);
   const [avatar, setAvatar] = useState(null);
 
-  const handleSubmit = (e) => {
-    console.log("kakaka");
-  };
-
   const handleFileInputChange = (e) => {
     const file = e.target.files[0];
     setAvatar(file);
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const config = {
+      headers: { "content-type": "multipart/form-data" },
+    };
+    const formData = new FormData();
+    formData.append("file", avatar);
+    formData.append("name", name);
+    formData.append("email", email);
+    formData.append("password", password);
+
+    axios
+      .post(`${server}/user/create-user`, formData, config)
+      .then((res) => {
+        console.log(res);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
   };
 
   return (
@@ -29,7 +48,7 @@ export const SignupComponent = () => {
       </div>
       <div className="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
         <div className="bg-mySecondary py-8 px-4 shadow  sm:px-10">
-          <form className="space-y-6">
+          <form className="space-y-6" onSubmit={handleSubmit}>
             <div>
               <label
                 htmlFor="email"

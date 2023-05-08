@@ -1,12 +1,12 @@
 import "./index.css";
 import { Navbar } from "./components/navbar/Navbar";
-import { Home } from "./routes/Home";
+import { Home } from "./pages/Home";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { Categories } from "./routes/categories";
+import { Categories } from "./pages/categories";
 import { Footer } from "./components/footer/Footer";
-import { AllFabrics } from "./routes/AllFabrics";
-import { LoginPage } from "./routes/Login";
-import { SignupPage } from "./routes/Signup";
+import { AllFabrics } from "./pages/AllFabrics";
+import { LoginPage } from "./pages/Login";
+import { SignupPage } from "./pages/Signup";
 
 function App() {
   return (
