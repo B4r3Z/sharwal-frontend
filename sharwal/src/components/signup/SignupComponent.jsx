@@ -2,7 +2,7 @@ import { React, useState } from "react";
 import { VscEye, VscEyeClosed } from "react-icons/vsc";
 import { RiFileUserLine } from "react-icons/ri";
 import { customStyles } from "../../customStyles/customStyles";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { server } from "../../server";
 
@@ -12,6 +12,7 @@ export const SignupComponent = () => {
   const [password, setPassword] = useState("");
   const [visible, setVisible] = useState(false);
   const [avatar, setAvatar] = useState(null);
+  const navigate = useNavigate();
 
   const handleFileInputChange = (e) => {
     const file = e.target.files[0];
@@ -32,7 +33,7 @@ export const SignupComponent = () => {
     axios
       .post(`${server}/user/create-user`, formData, config)
       .then((res) => {
-        console.log(res);
+        alert(res.message);
       })
       .catch((err) => {
         console.log(err);

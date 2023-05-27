@@ -10,23 +10,27 @@ import { SignupPage } from "./pages/Signup";
 
 function App() {
   return (
+    <div className=" bg-myPrimary h-full gap-y-16 flex flex-col overflow-hidden">
     <BrowserRouter>
-      <Routes>
-        <Route path="/login" element={<LoginPage />} />
-        <Route path="/sign-up" element={<SignupPage />} />
-      </Routes>
-    </BrowserRouter>
+          <Routes>
+            <Route path="/login" element={<LoginPage />} />
+            <Route path="/sign-up" element={<SignupPage />} />
+            <Route path="/" element={<Home />} />
+          </Routes>
+        </BrowserRouter>
+      </div>
+  )
+
+    
 
     // <div className=" bg-myPrimary h-full gap-y-16 flex flex-col overflow-hidden">
     //   <Navbar />
     //   <Routes>
-    //     <Route path="/" element={<Home />} />
     //     <Route path="/categories" element={<Categories />} />
     //     <Route path="/allfabrics" element={<AllFabrics />} />
     //   </Routes>
     //   <Footer />
     // </div>
-  );
 }
 
 export default App;
